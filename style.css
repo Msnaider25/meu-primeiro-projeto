@@ -1,0 +1,86 @@
+body {
+
+    background-color: rgb(255, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(18, 18, 18);
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(14, 14, 15);
+    background-color: rgb(238, 201, 19);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+p {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    background-color: gray;
+    padding: 25px;
+    border: 50px;
+    margin: 30px;
+}
+
+img {
+
+    width: 160px;
+    border-radius: 50px;
+}
+
+.objetivo {
+    color: rgb(11, 11, 11);
+    background-color: gray;
+    font-style: italic;
+    padding: 25px;
+    border: 50px;
+    margin: 30px;
+
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+@media(max-widht: 600px) {
+
+    .apresentacao {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+}
+
+.projeto {
+    background-color: rgb(252, 247, 247);
+    padding: 15px;
+    border: 2px solid rgb(238, 201, 19);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.projeto a {
+    background-color: rgb(238, 201, 19);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.projeto a:hover{
+    background-color: black;
+    color: white;
+
+}
